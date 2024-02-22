@@ -34,7 +34,7 @@ Note: When using image generation, I was finding it difficult to represent image
 2. Showcase Chat History (currently, not showing it)
 3. Add more agents specific to your needs (don't forget to register it in `main.py`)
 4. Use the `config` file to store model details, etc that are needed for RAG as well as other agents
-5. Currently, the chromaDB gets recreated for every query to RAG. Need to handle this to make ChromaDB persist (instantiate once) once the service is up.
+5. -Currently, the chromaDB gets recreated for every query to RAG. Need to handle this to make ChromaDB persist (instantiate once) once the service is up.- Fixed (/)
 
 # Sample Output:
 
