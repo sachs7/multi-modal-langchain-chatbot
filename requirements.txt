@@ -1,0 +1,9 @@
+langchain
+openai
+gradio
+chromadb
+loguru
+langchain-openai
+pypdf
+watchdog
+streamlit
