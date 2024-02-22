@@ -5,19 +5,19 @@ A Multi-Modal Chatbot with LangChain that also supports the agentic RAG
 The ChatBot supports:
 
 1. Chat with your documents using basic RAG
-2. Query "Paperswithcode" site to get a gist of recent papers of any topic
+2. Query "Paperswithcode" site to get a gist of recent papers on any topic
 3. Generate images using DallE-3
 
-The code-base has been organized into the following folders:
+The code base has been organized into the following folders:
 
 1. `docs`: Store your PDF documents in this folder
-2. `services`: Add all your agent specific services in here
+2. `services`: Add all your agent-specific services here
 3. `tools`: Create a tool for your services
 
-The `main.py` consists the actual System Prompt and the registration of the tools.
-Make sure to register your new tools in here. The UI can be created using both, Gradio, and Streamlit.
+The `main.py` consists of the actual System Prompt and the registration of the tools.
+Make sure to register your new tools here. The UI can be created using both, Gradio, and Streamlit.
 
-Note: If using image generation, I was finding it difficult to represent image in Gradio, hence I went with Streamlit at the end. But feel free to play around.
+Note: When using image generation, I was finding it difficult to represent images in Gradio, hence I went with Streamlit at the end. But feel free to play around.
 
 # How to run:
 
@@ -30,10 +30,10 @@ Note: If using image generation, I was finding it difficult to represent image i
 
 ### Improvements:
 
-1. This is a basic RAG, one can create CRAG, Rank based RAG etc
+1. This is a basic RAG, one can create CRAG, Rank based RAG, etc
 2. Showcase Chat History (currently, not showing it)
 3. Add more agents specific to your needs (don't forget to register it in `main.py`)
-4. Use `config` file to store model details, etc that are needed for RAG as well as other agents
+4. Use the `config` file to store model details, etc that are needed for RAG as well as other agents
 
 # Sample Output:
 
