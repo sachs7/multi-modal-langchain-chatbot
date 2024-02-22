@@ -1,4 +1,4 @@
-# multi-modal-chatbot-with-agentic-rag
+# Multi-Modal LangChain Chatbot
 
 A Multi-Modal Chatbot with LangChain that also supports the agentic RAG
 
