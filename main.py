@@ -89,7 +89,7 @@ def chatbot(prompt, chat_history=[]):
 #     inputs=gr.Textbox(lines=5, label="Prompt"),
 #     outputs=[gr.Textbox(label="Output")],
 #     title="Multi-Modal Agentic RAG Chatbot",
-#     description="A chatbot to interact with the DSCC Backup and Recovery Services as well as RAG retriever.",
+#     description="A chatbot to interact with papers with code, Dall-E-3 as well as RAG retriever.",
 # ).launch()
 
 
